@@ -1,0 +1,24 @@
+.log {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(147, 163, 163);
+    height: 50px;
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 0.2rem;
+}
+
+.log p {
+    padding: 0.8rem;
+    position: relative;
+}
+
+.log p span {
+    position: absolute;
+    right: 20px;
+    transition-duration: 0.3s;
+}
+
+.log p span:hover {
+    color: beige;
+}

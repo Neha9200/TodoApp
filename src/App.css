@@ -1,0 +1,43 @@
+#title {
+  text-align: center;
+}
+
+body {
+  background: rgb(78, 8, 78);
+}
+
+.app {
+  background-color: rgb(157, 189, 202);
+  height: 600px;
+  width: 500px;
+  margin: 50px auto;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#todo input {
+  background-color: rgb(253, 253, 253);
+  border: 0px;
+  width: 18rem;
+  height: 2rem;
+  margin: 2.8rem;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+#todo input::placeholder {
+  color: black;
+}
+
+#todo button {
+  width: 4rem;
+  height: 2.2rem;
+  border-radius: 3px;
+  border: 0;
+  padding: 0 10px;
+  background-color:rgb(87, 139, 156);
+  margin-right: 2px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+}
